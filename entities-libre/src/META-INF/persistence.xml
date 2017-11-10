@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="persistenceunit" transaction-type="JTA">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>jdbc/ActiveImage</jta-data-source>
+    <class>com.seev.web.model.Iconv</class>
+    <class>com.seev.web.model.Roster</class>
+    <class>com.seev.web.model.Adr</class>
+    <class>com.seev.web.model.Bloc</class>
+    <class>com.seev.web.model.Canal</class>
+    <class>com.seev.web.model.Clzreza</class>
+    <class>com.seev.web.model.DateConverter</class>
+    <class>com.seev.web.model.Cmnd</class>
+    <class>com.seev.web.model.Cndt</class>
+    <class>com.seev.web.model.Cnsltprfl</class>
+    <class>com.seev.web.model.ComptenceCv</class>
+    <class>com.seev.web.model.ContentCv</class>
+    <class>com.seev.web.model.CptRecrut</class>
+    <class>com.seev.web.model.Curconv</class>
+    <class>com.seev.web.model.Cv</class>
+    <class>com.seev.web.model.EtablissementCv</class>
+    <class>com.seev.web.model.ExperienceCv</class>
+    <class>com.seev.web.model.FormationCv</class>
+    <class>com.seev.web.model.HistCnxRecrut</class>
+    <class>com.seev.web.model.IntervaldtCv</class>
+    <class>com.seev.web.model.LangageCv</class>
+    <class>com.seev.web.model.Lm</class>
+    <class>com.seev.web.model.Note</class>
+    <class>com.seev.web.model.Offrmpl</class>
+    <class>com.seev.web.model.Payment</class>
+    <class>com.seev.web.model.Produit</class>
+    <class>com.seev.web.model.ProduitTaxitem</class>
+    <class>com.seev.web.model.Psprqt</class>
+    <class>com.seev.web.model.Psprsp</class>
+    <class>com.seev.web.model.Pstltn</class>
+    <class>com.seev.web.model.Recrtr</class>
+    <class>com.seev.web.model.RefCntry</class>
+    <class>com.seev.web.model.RefComptence</class>
+    <class>com.seev.web.model.RefCurcy</class>
+    <class>com.seev.web.model.RefLang</class>
+    <class>com.seev.web.model.RefTechno</class>
+    <class>com.seev.web.model.RqtCndtexist</class>
+    <class>com.seev.web.model.RqtCriterii</class>
+    <class>com.seev.web.model.RqtCv2txt</class>
+    <class>com.seev.web.model.RqtForgotPwdCandidat</class>
+    <class>com.seev.web.model.RqtForgotPwdRecruteur</class>
+    <class>com.seev.web.model.RqtLogin</class>
+    <class>com.seev.web.model.RqtLogout</class>
+    <class>com.seev.web.model.RqtOfferctrl</class>
+    <class>com.seev.web.model.RqtPayment</class>
+    <class>com.seev.web.model.RqtPublishOffer</class>
+    <class>com.seev.web.model.RqtRctrexist</class>
+    <class>com.seev.web.model.RqtRspAddCv</class>
+    <class>com.seev.web.model.RqtRspSouscription</class>
+    <class>com.seev.web.model.RqtSearchCandidate</class>
+    <class>com.seev.web.model.RqtSearchJob</class>
+    <class>com.seev.web.model.RqtSelectCandidate</class>
+    <class>com.seev.web.model.RqtSndCrdsRcrtr</class>
+    <class>com.seev.web.model.RqtSndCrdscnddt</class>
+    <class>com.seev.web.model.RspRqtAddOffer</class>
+    <class>com.seev.web.model.RspSearchCandidate</class>
+    <class>com.seev.web.model.RspSearchJob</class>
+    <class>com.seev.web.model.Societe</class>
+    <class>com.seev.web.model.SocieteCptRecrut</class>
+    <class>com.seev.web.model.Tarif</class>
+    <class>com.seev.web.model.Taxitem</class>
+    <class>com.seev.web.model.XchCandidat</class>
+    <class>com.seev.web.model.XchgRctr</class>
+    <class>com.seev.web.model.Pretention</class>
+    <class>com.seev.web.model.OtherCv</class>
+    <class>com.seev.web.model.Backoffice</class>
+    <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
+    <properties>
+      <property name="eclipselink.cache.shared.default" value="true"/>
+      <property name="eclipselink.logging.level" value="FINE"/>
+      <property name="eclipselink.weaving.internal" value="true"/>
+      <property name="eclipselink.weaving" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>
